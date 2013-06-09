@@ -42,11 +42,11 @@ begin
 			num4 	=> num1,
 			num5 	=> num1,
 			num6 	=> num1,
-			num7 	=> num2,
-			num8 	=> num2,
-			num9 	=> num2,
-			num10 	=> num2,
-			num11 	=> num2,
+			num7 	=> num1,
+			num8 	=> num1,
+			num9 	=> num1,
+			num10 	=> num1,
+			num11 	=> num1,
 			
 			dataOut 	 =>dataOut) ;
          
