@@ -14,7 +14,7 @@ ENTITY TB IS
 END TB;
 
 ARCHITECTURE behavior OF TB IS
-	
+	--bla bla bla
 	component Median9 IS
 	  PORT(	
 			num1 	: IN 	STD_LOGIC_VECTOR( 31 DOWNTO 0 );
