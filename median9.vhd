@@ -3,7 +3,6 @@ LIBRARY IEEE; 			-- the MIPS computer)
 USE IEEE.STD_LOGIC_1164.ALL;
 USE IEEE.STD_LOGIC_ARITH.ALL;
 USE IEEE.STD_LOGIC_UNSIGNED.ALL;
-
 ENTITY Median9 IS
 	  PORT(	
 			num1 	: IN 	STD_LOGIC_VECTOR( 31 DOWNTO 0 );
@@ -28,7 +27,7 @@ ARCHITECTURE behavior OF Median9 IS
 		   wire21,wire22,wire23,wire24,wire25,wire26,wire27,wire28,wire29,wire30   : STD_LOGIC_VECTOR( 31 DOWNTO 0 );
 	
 begin
-	
+	--paka paka
    wire1 <= num2 when num2 < num3 else num3 ;
    wire2 <= num2 when num2 > num3 else num3 ;
    
